@@ -7,5 +7,5 @@ publish = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bytecheck = "~0.6.8"
+bytecheck = { git = "https://github.com/cpunkzzz/bytecheck.git", rev = "b3cd049b38572fb9e9d6a0c0a08704457af884d4" }
 rkyv = { version = "0.7", path = "../../rkyv", features = ["validation"] }
