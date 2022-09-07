@@ -17,7 +17,7 @@ readme = "crates-io.md"
 bytecheck = { version = "~0.6.8", optional = true, default-features = false }
 hashbrown = { version = "0.12", optional = true }
 ptr_meta = { version = "~0.1.3", default-features = false }
-rend = { version = "0.4", optional = true, default-features = false }
+rend = { git = "https://github.com/cpunkzzz/rend.git", rev = "410408c4cedc732926e14d3adcf8f7bd372bf13a",  optional = true, default-features = false }
 rkyv_derive = { version = "=0.7.39", path = "../rkyv_derive" }
 seahash = "4.0"
 
